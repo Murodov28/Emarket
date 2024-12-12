@@ -6,7 +6,7 @@
       <p>на каждый день</p>
     </div>
     <div class="header__bottom">
-      <router-link to="/Katalog">
+      <router-link to="/emarket/Katalog">
         <button>
           <img src="../assets/img/catalog-icon.png" alt="" />
           <span>Каталог</span>

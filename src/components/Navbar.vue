@@ -1,18 +1,18 @@
 <template>
   <nav class="container navbar">
-    <a class="navbar__logo" href="#!"
+    <router-link to="/emarket" class="navbar__logo"
       ><img src="../assets/img/logo.png" alt=""
-    /></a>
+    /></router-link>
     <div
       :class="isBurgerShow ? 'navbar__navigation active' : 'navbar__navigation'"
     >
       <div class="navbar__navigation-left">
         <ul>
-          <li><router-link to="/">Главная</router-link></li>
-          <li><router-link to="/Katalog">коллекции</router-link></li>
-          <li><<router-link to="/AboutMe">О нас</router-link></li>
-          <li><router-link to="/Contact">контакты</router-link></li>
-          <li><<router-link to="/Korzina">корзина</router-link></li>
+          <li><router-link to="/emarket">Главная</router-link></li>
+          <li><router-link to="/emarket/Katalog">коллекции</router-link></li>
+          <li><<router-link to="/emarket/AboutMe">О нас</router-link></li>
+          <li><router-link to="/emarket/Contact">контакты</router-link></li>
+          <li><<router-link to="/emarket/Korzina">корзина</router-link></li>
         </ul>
       </div>
       <div class="navbar__right">

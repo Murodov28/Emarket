@@ -7,7 +7,7 @@
           Текст описания конкретной коллекции с возможным дополнением
           уникальности
         </p>
-        <router-link to="/Katalog">
+        <router-link to="/emarket/Katalog">
           <button>
             <img src="../assets/img/catalog-icon.png" alt="" />
             <span>Каталог</span>
