@@ -1,1 +1,0 @@
-import{_ as e,N as s,L as r,b as _,c as p,d as o,o as i,e as t}from"./index-BtdphVTT.js";const l={components:{Navbar:s,Location:r,Footer:_}};function m(d,f,u,v,N,b){const n=t("Navbar"),a=t("Location"),c=t("Footer");return i(),p("div",null,[o(n),o(a,{class:"location__contact"}),o(c)])}const $=e(l,[["render",m]]);export{$ as default};
