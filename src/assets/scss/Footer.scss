@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  * {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 15px;
+    line-height: 18.2px;
+  }
+  &__center img {
+    width: 195px;
+    height: 65px;
+  }
+  @media (max-width: 1600px) {
+    & {
+      justify-content: space-between;
+      padding: 0 20px;
+    }
+  }
+  @media (max-width: 800px) {
+    & {
+      flex-direction: column-reverse;
+      align-items: center;
+      gap: 20px;
+      &__top {
+        text-align: center;
+      }
+    }
+  }
+  @media (max-width: 940px) {
+  }
+}

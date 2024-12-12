@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "UF1";
+  font-weight: 400;
+  background: linear-gradient(180deg, #0e141c 100%, #0a0f14 100%);
+}
+
+.container {
+  max-width: 1568px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.location__contact {
+  margin-top: 60px;
+}

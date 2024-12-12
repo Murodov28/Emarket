@@ -1,0 +1,28 @@
+{
+  "name": "emarket",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@chenfengyuan/vue-carousel": "^2.0.0",
+    "@vue/compiler-sfc": "^3.5.12",
+    "gh-pages": "^6.2.0",
+    "sass": "^1.80.6",
+    "save-dev": "^0.0.1-security",
+    "swiper": "^11.1.14",
+    "vue": "^3.5.12",
+    "vue-router": "^4.4.5",
+    "vue-ssr-carousel": "^2.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.2",
+    "vite": "^5.4.1"
+  }
+}

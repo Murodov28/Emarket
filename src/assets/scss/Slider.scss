@@ -1,0 +1,94 @@
+.slider {
+  margin-top: 65px;
+  padding-top: 60px;
+  & h2 {
+    font-size: 100px;
+    line-height: 100px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  &-bg {
+    margin: 57px auto;
+    max-width: 1248px;
+    height: 587px;
+    background: url(../img/carusel.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    &-about {
+      width: 300px;
+      margin: 0 98px 162px 0;
+      background: transparent;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      * {
+        background: transparent;
+      }
+      & p {
+        font-size: 15px;
+        line-height: 15px;
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+      }
+      & button {
+        width: 205px;
+        height: 53px;
+        border: 2px solid #d1c12b;
+        box-shadow: 0 0 5px #d1c12b;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        cursor: pointer;
+        border-radius: 50px;
+        & span {
+          font-family: sans-serif;
+          font-size: 20px;
+          color: #d1c12b;
+          font-weight: 500;
+          text-shadow: 0 0 10px #d1c12b;
+        }
+      }
+    }
+  }
+  @media (max-width: 1600px) {
+    h2 {
+      width: 679px;
+    }
+  }
+  @media (max-width: 800px) {
+    h2 {
+      font-size: 80px;
+      line-height: 80px;
+    }
+    &-bg {
+      height: 495px;
+
+      &-about {
+        display: none;
+      }
+    }
+  }
+  @media (max-width: 700px) {
+    h2 {
+      font-size: 65px;
+      line-height: 65px;
+      max-width: 400px;
+      padding-left: 10px;
+    }
+  }
+  @media (max-width: 400px) {
+    h2 {
+      font-size: 50px;
+      line-height: 50px;
+      max-width: 300px;
+      padding-left: 10px;
+    }
+  }
+}
